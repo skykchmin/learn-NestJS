@@ -1,0 +1,15 @@
+// TypeSciprt에게 어떻게 JavaScript로 변환하는지 알려주면서 몇몇 옵션을 주는 방식
+
+{
+    "compilerOptions": {
+        "module": "commonjs",    // node.js를 다양한걸 import하거나 export할 수 있게 만드는것
+        "target": "ES2015",
+        "sourceMap": true
+    },
+    "include": [
+        "index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "skykchmin",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
