@@ -4,12 +4,9 @@
     "compilerOptions": {
         "module": "commonjs",    // node.js를 다양한걸 import하거나 export할 수 있게 만드는것
         "target": "ES2015",
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir": "dist"    // 컴파일 된 것들은 dist
     },
-    "include": [
-        "index.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
 }
