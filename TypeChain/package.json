@@ -5,6 +5,7 @@
   "author": "skykchmin",
   "license": "MIT",
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "typescript": "^4.5.4"
   },
   "scripts": {
